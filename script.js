@@ -16,7 +16,7 @@
             <input type="radio" name="question${questionNumber}" value="${letter}">
             ${letter} :
             ${currentQuestion.answers[letter]}
-          </label>`,
+          </label>`
         );
       }
 
@@ -25,7 +25,7 @@
         `<div class="field">
           <label class="label">${currentQuestion.question}</label>
           <div class="control answers">${answers.join('')}</div>
-        </div>`,
+        </div>`
       );
     });
 
